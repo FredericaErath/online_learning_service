@@ -1,0 +1,22 @@
+server:
+  servlet:
+    context-path: /content
+  port: 63040
+  #微服务配置
+spring:
+  application:
+    name: content-api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.242.250.68:3306/xc_content?serverTimezone=UTC&userunicode=true&usessL=false&
+    username: root
+    password: 6808683526
+    #日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+swagger:
+  title: "学成在线文档"
+  description: "内容管理"
+  base-package: com.xuecheng.content
+  enabled: true
+  version: 1.0.0

@@ -34,7 +34,6 @@
     </properties>
 
 
-    <!-- 依赖管理-->
     <dependencyManagement>
         <dependencies>
 
