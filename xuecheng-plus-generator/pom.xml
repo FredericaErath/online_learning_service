@@ -69,6 +69,7 @@
         </dependency>
 
 
+
         <!-- 只用swagger注解， 缩小依赖的lib包 -->
         <dependency>
             <groupId>io.swagger</groupId>
@@ -80,6 +81,12 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.xuecheng</groupId>
+            <artifactId>xuecheng-plus-content-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
 
 
